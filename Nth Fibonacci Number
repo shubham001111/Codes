@@ -55,17 +55,17 @@ int main()
           }
           
 
-        //length1=length2;
         if((i==0)&&(carry==1))
         {
           count=length2 + 1;
           for(j=length2;j>=1;j--){
                   ans[j]=ans[j-1];
-              }ans[0]=1;
+              }
+              ans[0]=1;
         }
-       // length2=count;
+    
           
-        }carry=0;
+       }carry=0;
       for (int y = 0; y < length2; y++)
       {
          first[y] = second[y];
