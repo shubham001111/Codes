@@ -16,6 +16,7 @@ int main()
    ll carry = 0;
 
    ll i = 0,j=0;
+   printf("Enter the number ");
    scanf("%lld", &n);
    if(n==1)
    {
